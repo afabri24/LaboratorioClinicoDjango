@@ -6,7 +6,7 @@ class analisis(models.Model):
     analisis_nombre = models.CharField(max_length=50);
     analisis_fregistro = models.DateTimeField(auto_now_add=True);
     analisis_estado = models.BooleanField(default=True);
-
+#dsds
 class especialidad(models.Model):
     especialidad_id = models.AutoField(primary_key=True);
     especialidad_nombre = models.CharField(max_length=50);
